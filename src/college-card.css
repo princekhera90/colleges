@@ -1,0 +1,169 @@
+.college_card{
+    width: 639px;
+    height: 377px;
+    background: url(./data/college_01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 233.2px;
+    margin-right: 62.7px;
+    border: 1px solid lightgrey;
+    border-radius: 3.2px;
+    justify-content: center;
+    margin-bottom: 74.7px;
+    position: relative;
+}
+.promoted{
+    float: right;
+    background-color: #68a7ff;
+    padding : 10px 20px 10px 50px;
+    color : white;  
+    z-index : 4;
+    position: relative;
+    top : -20px;
+    right : -1px;
+}
+.layer{
+    background-color: rgba(7, 1, 1, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 3.2px;
+    height: 100%;
+}
+
+.image_left_text{
+    float: left;
+    top : 200px;
+    position : absolute;
+    margin-left: 10px;
+}
+.place{
+    background-color: white;
+    border-radius: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding:10px;
+}
+
+.image_right_text{
+    position: absolute;
+    float : right;
+    right : 0px;
+}
+
+.rating_top{
+    top: 28.3px;
+    right : 13px;
+    position: absolute;
+    text-align: center;
+    background-color: #f5a626;
+    width : 75px;
+    height : 53px;
+    color : white;
+    border-radius: 5px;
+}
+
+.rating_number{
+    font-size: xx-large;
+}
+
+.ranking{
+    top : 200px;
+    color: white;
+    position: relative;
+    margin-right: 13px;
+}
+
+.data{
+    background-color: white;
+    margin-top : 233.2px;
+    width : 100%;
+    position : absolute;
+    height : calc(100% - 233.3px)
+}
+
+.left_text{
+    font-size: 14px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.right_text{
+    float: right;
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.title{
+    display: inline;
+}
+ h3{
+     margin-right: 5px;
+     display: inline;
+ }
+
+.fa{
+    font: normal normal normal 14px/1 FontAwesome;
+ }
+
+ .fa-star{
+     color : grey
+ }
+
+.checked {
+     color : black;
+}
+
+.nearest_place{
+    margin-top : 11px;
+}
+
+.famous_nearest_places{
+    margin-top: 17px;
+}
+
+.offerText{
+    position: absolute;
+    margin-top: 5px;
+    left : -1.5px;
+    background-color: #ccf5e7;
+    border-radius: 0px 25px 25px 0px;
+    padding : 11px 21px 11px 17px;  
+}
+.price{
+    
+}
+
+.fees{
+    font-size: x-small;
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+
+.original_price{
+    font-size: x-large;
+    color : red;
+    margin-top : 13px;
+}
+
+.cycle{
+    font-size: small;
+    margin-top: 4px;
+}
+
+.discount{
+    background-color: red;
+    color : white;
+    padding : 5px;
+}
+
+.amanities{
+    margin-top : 17px;
+    color : #37b396;
+}
+
+.remarks{
+    font-size: 14px;
+}

@@ -1,0 +1,30 @@
+.base{
+    margin-left: 51.8px;
+    margin-top : 35px;
+    
+}
+
+.heading {
+    margin-bottom: 60px;
+}
+
+.loading{
+    position : fixed;
+    bottom: 100px;
+    left : 45.5%;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2.2s;
+    color : white;
+    font-size: x-large;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: green;}
+  }
+
+.colleges {
+    display: flex;
+    flex-wrap: wrap;
+}
